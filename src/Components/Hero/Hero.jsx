@@ -2,19 +2,21 @@ import React from "react";
 import "./Hero.css";
 import hand_icon from "../Assets/hand_icon.png";
 import arrow_icon from "../Assets/arrow.png";
-import hero_image from "../Assets/hero_image.png";
+import pic1 from "../Assets/pic1.png";
 const Hero = () => {
     return (
         <div className="hero">
             <div className="hero-left">
-                <h2>NEW ARRIVALS ONLY</h2>
+                <h1>NEW IN TOWN</h1>
                 <div>
                     <div className="hand-hand-icon">
-                        <p>new</p>
+                        <p>JYOTI</p>
                         <img src={hand_icon} alt=""></img>
                     </div>
-                    <p>collections</p>
-                    <p>for everyone</p>
+                    <p>AUTOMOBILES</p>
+                    <p style={{ fontSize: "30px" }}>
+                        everything your ride needs
+                    </p>
                 </div>
                 <div className="hero-latest-btn">
                     <div>Latest Collections</div>
@@ -22,7 +24,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-                <img src={hero_image} alt="" />
+                <img src={pic1} alt="" />
             </div>
         </div>
     );

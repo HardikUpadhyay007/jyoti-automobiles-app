@@ -55,8 +55,8 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
-import men_banner from "./Components/Assets/banner_mens.png";
-import women_banner from "./Components/Assets/banner_women.png";
+import men_banner from "./Components/Assets/banner1.png";
+import women_banner from "./Components/Assets/banner2.jpg";
 import kid_banner from "./Components/Assets/banner_kids.png";
 
 function App() {
@@ -69,7 +69,10 @@ function App() {
                     <Route
                         path="/mens"
                         element={
-                            <ShopCategory banner={men_banner} category="men" />
+                            <ShopCategory
+                                banner={men_banner}
+                                category="parts"
+                            />
                         }
                     />
                     <Route
@@ -77,7 +80,7 @@ function App() {
                         element={
                             <ShopCategory
                                 banner={women_banner}
-                                category="women"
+                                category="parts"
                             />
                         }
                     />
@@ -87,6 +90,7 @@ function App() {
                             <ShopCategory banner={kid_banner} category="kid" />
                         }
                     />
+                    x
                     <Route path="/product" element={<Product />}>
                         <Route path=":productId" element={<Product />} />
                     </Route>

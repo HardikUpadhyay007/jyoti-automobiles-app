@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 const Navbar = () => {
     const [menu, setMenu] = useState("shop");
+    const { getTotalCartItems } = useContext(ShopContext);
     return (
         <div className="navbar ">
             <div className="nav-logo">
                 <img src={logo}></img>
-                <p>SHOPPER</p>
+                <p>JYOTI AUTOMOBILES</p>
             </div>
             <ul className="nav-menu">
                 <li
@@ -18,7 +20,7 @@ const Navbar = () => {
                     }}
                 >
                     <Link to="/" style={{ textDecoration: "none" }}>
-                        Shop
+                        HOME
                     </Link>
                     {menu === "shop" ? <hr /> : <></>}
                 </li>
@@ -28,7 +30,7 @@ const Navbar = () => {
                     }}
                 >
                     <Link to="/mens" style={{ textDecoration: "none" }}>
-                        Men
+                        AUTOPARTS
                     </Link>
                     {menu === "mens" ? <hr /> : <></>}
                 </li>
@@ -38,7 +40,7 @@ const Navbar = () => {
                     }}
                 >
                     <Link to="/womens" style={{ textDecoration: "none" }}>
-                        Women
+                        SERVICES
                     </Link>
                     {menu === "womens" ? <hr /> : <></>}
                 </li>
@@ -47,10 +49,10 @@ const Navbar = () => {
                         setMenu("kids");
                     }}
                 >
-                    <Link to="/kids" style={{ textDecoration: "none" }}>
-                        Kids
+                    {/* <Link to="/contact" style={{ textDecoration: "none" }}>
+                        CONTACT
                     </Link>
-                    {menu === "kids" ? <hr /> : <></>}
+                    {menu === "kids" ? <hr /> : <></>} */}
                 </li>
             </ul>
             <div className="nav-login-cart">
@@ -60,7 +62,7 @@ const Navbar = () => {
                 <Link to="/cart">
                     <img src={cart_icon} alt="cart-logo"></img>
                 </Link>
-                <div className="nav-cart-count">0</div>
+                <div className="nav-cart-count">{getTotalCartItems()}</div>
             </div>
         </div>
     );
