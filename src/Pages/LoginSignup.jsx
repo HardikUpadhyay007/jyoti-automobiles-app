@@ -11,9 +11,9 @@ const LoginSignup = () => {
                     <input type="password" placeholder="Your Password" />
                 </div>
                 <button>Continue</button>
-                <p className="loginsignup-login">
+                {/* <p className="loginsignup-login">
                     Already have an account?<span> Login</span>
-                </p>
+                </p> */}
                 <div className="loginsignup-agree">
                     <input type="checkbox" />
                     <p>I agree to the Terms and Conditions</p>

@@ -56,9 +56,8 @@ import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
 import men_banner from "./Components/Assets/banner1.png";
-import women_banner from "./Components/Assets/banner2.jpg";
-import kid_banner from "./Components/Assets/banner_kids.png";
 
+import ServiceComponent from "./Components/ServiceComponent/ServiceComponent";
 function App() {
     return (
         <div>
@@ -77,25 +76,16 @@ function App() {
                     />
                     <Route
                         path="/womens"
-                        element={
-                            <ShopCategory
-                                banner={women_banner}
-                                category="parts"
-                            />
-                        }
+                        element={<ServiceComponent></ServiceComponent>}
                     />
-                    <Route
-                        path="/kids"
-                        element={
-                            <ShopCategory banner={kid_banner} category="kid" />
-                        }
-                    />
-                    x
+
                     <Route path="/product" element={<Product />}>
                         <Route path=":productId" element={<Product />} />
                     </Route>
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/login" element={<LoginSignup />} />
+
+                    {/* Define the route for ServiceComponent */}
                 </Routes>
                 <Footer></Footer>
             </BrowserRouter>

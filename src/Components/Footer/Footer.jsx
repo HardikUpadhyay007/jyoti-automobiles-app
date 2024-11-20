@@ -11,6 +11,13 @@ const Footer = () => {
                 <img src={footer_logo} alt="" />
                 <p>JYOTI AUTOMOBILES</p>
             </div>
+            <p>
+                Address : 111/159 Jyoti Sons , Harsh Nagar , Kanpur , Uttar
+                Pradesh
+            </p>
+            <p>Contact Number : 8467918277</p>
+            <p>Email : jyotiautomobiles11@gmail.com</p>
+
             <ul className="footer-links">
                 <li>Company</li>
                 <li>Products</li>
