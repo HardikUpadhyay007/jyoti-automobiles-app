@@ -27,7 +27,7 @@ const Footer = () => {
                 <li>Contact</li>
             </ul>
             <div className="footer-social-icon">
-                <div className="footer-icons-container">
+                {/* <div className="footer-icons-container">
                     <img src={instagram_icon} alt="" />
                 </div>
                 <div className="footer-icons-container">
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-icons-container">
                     <img src={whatsapp_icon} alt="" />
-                </div>
+                </div> */}
             </div>
             <div className="footer-copyright">
                 <hr />
