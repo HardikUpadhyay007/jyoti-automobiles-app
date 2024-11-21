@@ -30,7 +30,7 @@ let all_product = [
         name: "Alternator",
         category: "parts",
         image: cp1_img,
-        new_price: 50.0,
+        new_price: 1000,
         old_price: 80.5,
     },
     {
@@ -38,7 +38,7 @@ let all_product = [
         name: "Break Pack",
         category: "parts",
         image: cp2_img,
-        new_price: 85.0,
+        new_price: 3000,
         old_price: 120.5,
     },
     {
@@ -46,7 +46,7 @@ let all_product = [
         name: "Brake Disc",
         category: "parts",
         image: cp3_img,
-        new_price: 60.0,
+        new_price: 2500,
         old_price: 100.5,
     },
     {
@@ -54,7 +54,7 @@ let all_product = [
         name: "Multipart Box",
         category: "parts",
         image: cp4_img,
-        new_price: 100.0,
+        new_price: 1200,
         old_price: 150.0,
     },
     {
@@ -62,7 +62,7 @@ let all_product = [
         name: "Bumper",
         category: "parts",
         image: cp5_img,
-        new_price: 85.0,
+        new_price: 5000,
         old_price: 120.5,
     },
     {
@@ -70,7 +70,7 @@ let all_product = [
         name: "Mechanical Gears",
         category: "parts",
         image: cp6_img,
-        new_price: 85.0,
+        new_price: 4500,
         old_price: 120.5,
     },
     {
@@ -78,7 +78,7 @@ let all_product = [
         name: "V-Engine",
         category: "parts",
         image: cp7_img,
-        new_price: 85.0,
+        new_price: 9000,
         old_price: 120.5,
     },
     {
@@ -86,7 +86,7 @@ let all_product = [
         name: "Differential",
         category: "parts",
         image: cp8_img,
-        new_price: 85.0,
+        new_price: 4500,
         old_price: 120.5,
     },
     {
@@ -94,7 +94,7 @@ let all_product = [
         name: "Break Rotor",
         category: "parts",
         image: cp9_img,
-        new_price: 85.0,
+        new_price: 3000,
         old_price: 120.5,
     },
     {
@@ -102,7 +102,7 @@ let all_product = [
         name: "Headlight",
         category: "parts",
         image: cp10_img,
-        new_price: 85.0,
+        new_price: 1000,
         old_price: 120.5,
     },
     {
@@ -110,7 +110,7 @@ let all_product = [
         name: "Transmission Gear",
         category: "parts",
         image: cp11_img,
-        new_price: 85.0,
+        new_price: 3400,
         old_price: 120.5,
     },
     {
@@ -118,7 +118,7 @@ let all_product = [
         name: "Break Pad",
         category: "parts",
         image: cp12_img,
-        new_price: 85.0,
+        new_price: 2200,
         old_price: 120.5,
     },
     {
@@ -126,7 +126,7 @@ let all_product = [
         name: "Suspension",
         category: "parts",
         image: cp13_img,
-        new_price: 85.0,
+        new_price: 3400,
         old_price: 120.5,
     },
     {
@@ -134,7 +134,7 @@ let all_product = [
         name: "Turbocharger",
         category: "parts",
         image: cp14_img,
-        new_price: 85.0,
+        new_price: 5999,
         old_price: 120.5,
     },
     {
@@ -142,7 +142,7 @@ let all_product = [
         name: "KickStart Lever",
         category: "parts",
         image: cp15_img,
-        new_price: 85.0,
+        new_price: 2000,
         old_price: 120.5,
     },
     {
@@ -150,7 +150,7 @@ let all_product = [
         name: "Clutch Plate",
         category: "parts",
         image: cp16_img,
-        new_price: 85.0,
+        new_price: 1200,
         old_price: 120.5,
     },
     {
@@ -158,7 +158,7 @@ let all_product = [
         name: "Wheel Rim",
         category: "parts",
         image: cp17_img,
-        new_price: 85.0,
+        new_price: 4000,
         old_price: 120.5,
     },
     {
@@ -166,7 +166,7 @@ let all_product = [
         name: "Engine Piston",
         category: "parts",
         image: cp18_img,
-        new_price: 85.0,
+        new_price: 3000,
         old_price: 120.5,
     },
     {
@@ -174,7 +174,7 @@ let all_product = [
         name: "Spark Plug",
         category: "parts",
         image: cp19_img,
-        new_price: 85.0,
+        new_price: 1000,
         old_price: 120.5,
     },
     {
@@ -182,7 +182,7 @@ let all_product = [
         name: "Turbocharger",
         category: "parts",
         image: cp20_img,
-        new_price: 85.0,
+        new_price: 4500,
         old_price: 120.5,
     },
     {
@@ -190,7 +190,7 @@ let all_product = [
         name: "Steering Wheel",
         category: "parts",
         image: cp21_img,
-        new_price: 85.0,
+        new_price: 3000,
         old_price: 120.5,
     },
     {
@@ -198,7 +198,7 @@ let all_product = [
         name: "Gimat",
         category: "parts",
         image: cp22_img,
-        new_price: 85.0,
+        new_price: 2500,
         old_price: 120.5,
     },
     {
@@ -206,7 +206,7 @@ let all_product = [
         name: "Crankshaft",
         category: "parts",
         image: cp23_img,
-        new_price: 85.0,
+        new_price: 1000,
         old_price: 120.5,
     },
     {
@@ -214,7 +214,7 @@ let all_product = [
         name: "Bumper Outer",
         category: "parts",
         image: cp24_img,
-        new_price: 85.0,
+        new_price: 6000,
         old_price: 120.5,
     },
     {
@@ -222,7 +222,7 @@ let all_product = [
         name: "Hyper Headlight",
         category: "kid",
         image: cp25_img,
-        new_price: 85.0,
+        new_price: 3000,
         old_price: 120.5,
     },
 ];
