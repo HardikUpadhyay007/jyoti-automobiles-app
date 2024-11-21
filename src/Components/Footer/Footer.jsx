@@ -11,6 +11,7 @@ const Footer = () => {
                 <img src={footer_logo} alt="" />
                 <p>JYOTI AUTOMOBILES</p>
             </div>
+
             <p>
                 Address : 111/159 Jyoti Sons , Harsh Nagar , Kanpur , Uttar
                 Pradesh

@@ -18,13 +18,13 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Shop />} />
                     <Route
-                        path="/mens"
+                        path="/parts"
                         element={
                             <ShopCategory banner={banner_1} category="parts" />
                         }
                     />
                     <Route
-                        path="/womens"
+                        path="/services"
                         element={<ServiceComponent></ServiceComponent>}
                     />
 
