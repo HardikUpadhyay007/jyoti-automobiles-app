@@ -16,7 +16,7 @@ const Footer = () => {
                 Address : 111/159 Jyoti Sons , Harsh Nagar , Kanpur , Uttar
                 Pradesh
             </p>
-            <p>Contact Number : 8467918277</p>
+            <p>Contact Number : 9610202227</p>
             <p>Email : jyotiautomobiles11@gmail.com</p>
 
             <ul className="footer-links">
