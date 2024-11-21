@@ -20,7 +20,7 @@ const ProductDisplay = (props) => {
 
                 <div className="productdisplay-right-prices">
                     <div className="productdisplay-right-prices-new">
-                        ₹{product.new_price}
+                        ${product.new_price}
                     </div>
                 </div>
 
