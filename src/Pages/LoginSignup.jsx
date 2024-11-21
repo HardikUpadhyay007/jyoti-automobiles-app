@@ -10,14 +10,14 @@ const LoginSignup = () => {
                     <input type="email" placeholder="Your Email" />
                     <input type="password" placeholder="Your Password" />
                 </div>
-                <button>Continue</button>
-                {/* <p className="loginsignup-login">
-                    Already have an account?<span> Login</span>
-                </p> */}
                 <div className="loginsignup-agree">
                     <input type="checkbox" />
                     <p>I agree to the Terms and Conditions</p>
                 </div>
+                <button>Continue</button>
+                {/* <p className="loginsignup-login">
+                    Already have an account?<span> Login</span>
+                </p> */}
             </div>
         </div>
     );
